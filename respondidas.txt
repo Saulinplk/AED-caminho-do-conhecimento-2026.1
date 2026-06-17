@@ -1,0 +1,42 @@
+
+Perguntas que leo acertou:
+ - Considere uma funcao comum em C definida como void atualiza(int x) { x = x + 10; }.
+Se no programa principal declararmos int numero = 5; e chamarmos atualiza(numero);,
+qual sera o valor impresso se executarmos printf("%d", numero); logo apos a chamada da funcao?
+
+Perguntas que paulo acertou:
+ - Estruturas de dados lineares como Pilhas e Filas possuem regras estritas sobre como os elementos entram e saem da memoria.
+Quais sao as respectivas politicas de acesso para uma Pilha e para uma Fila padrao?
+ - Sobre algoritmos de ordenacao interna e suas respectivas complexidades no pior caso, analise o comportamento do Quick Sort e do Merge Sort.
+Qual alternativa expressa de maneira precisa as complexidades de tempo e espaco auxiliar desses algoritmos no pior caso?
+
+Perguntas que leo errou:
+ - Considere uma lista simplesmente encadeada nao ordenada de tamanho n.
+
+Se quisermos realizar duas operacoes sequenciais:
+(1) Buscar um valor especifico na lista
+
+e
+
+(2) Inserir um novo elemento imediatamente apos o no correspondente ao valor encontrado.
+Quais sao as respectivas complexidades de tempo para essas duas etapas no pior caso?
+
+
+Perguntas que paulo errou:
+ - Ao projetar uma funcao recursiva em C (uma funcao que chama a si mesma),
+qual eh o componente obrigatorio que impede que o programa entre em um loop infinito e sofra um estouro de pilha (stack overflow)?
+ - Considere o seguinte trecho de codigo escrito na linguagem C:
+
+int a = 10;
+int b = 20;
+int *p = &a;
+*p = 30;
+p = &b;
+*p = 40;
+
+Apos a execucao sequencial dessas linhas, quais serao os valores finais armazenados nas variaveis a e b, respectivamente?
+ - Em um sistema operacional ou arquitetura de software, a escolha entre Pilha ou Fila depende estritamente do problema a ser resolvido.
+Qual das seguintes alternativas apresenta um cenario tipico de uso para uma Pilha e um cenario tipico para uma Fila, respectivamente?
+ - Deseja-se remover um no intermediario P (que nao seja o primeiro nem o ultimo) de uma lista duplamente encadeada.
+Assuma que voce ja possui o ponteiro direto apontando para o no P.
+Quais atribuicoes de ponteiros sao estritamente necessarias e corretas para isolar P da lista sem perder a integridade da estrutura?
